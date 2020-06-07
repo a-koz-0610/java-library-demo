@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+h1, h2, h3, h4{
+    margin: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#app{
+    background-color: #999;
+    border-radius: 8px;
+}
+
+.page-image{
+    height: 50%;
+    width: 75%;;
+}
+
+.nav-list li{
+    background-color: blue;
+    border-radius: 10px;
+    color: #FFF;
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.nav-list li:hover{
+    background-color: lightblue;
+    color: #888;
+    transition: .5s;
+}
+
+.hashTags-list{
+    margin: 1rem;
+}
+
+.books-list__title{
+    margin: 1rem;
+    font-size: 20px;
+}
+
+.books-list__title:hover{
+    background-color: #DDD;
+    border-radius: 6px;
+    transition: .5s;
+    width: 50%;
+}
+
+.add-hashtag__name, .add-hashtag__bookSubmit{
+    margin: 2rem;
+    font-size: 20px;   
+}
+
+
+
+#app{
+    margin: 2rem auto;
+    max-width: 90%;
+    min-height: 75vh;
+    width: 1000px;
+    text-align: center;
+}
+
+
+.header{
+    margin: 2rem auto;
+    max-width: 90%;
+    width: 1000px;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+    max-width: 90%;
+    width: 900px;
+}
+
+.social-list{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+
+}
+
+.books-list{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*# sourceMappingURL=/app.c3f9f951.css.map */
